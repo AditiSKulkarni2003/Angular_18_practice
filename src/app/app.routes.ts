@@ -44,7 +44,7 @@ export const routes: Routes = [
         component: IfelseComponent
     },
     {
-        path:'attr-switch',
+        path:'app-switch',
         component: SwitchComponent
     }
 ];
