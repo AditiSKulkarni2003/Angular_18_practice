@@ -1,0 +1,63 @@
+<p>databinding works!</p>
+<div class="row">
+    <div class="col-3">
+        One Way Data Binding
+    </div>
+    <div class="col-3">
+
+    </div>
+
+</div>
+
+
+<div class="row">
+    <div class="col-4">
+        <div class="row">
+           
+            <div class="col-4">
+                interpolation
+                <h5>{{coursename}}</h5>
+                <input type="text" value="{{coursename}}" placeholder="Enter CourseName">
+                <br><br>
+                <h5>{{inputType}}</h5>
+                <input type="{{inputType}}">
+
+            </div>
+            <div class="row">
+            <div class="col-4">
+                Property Binding
+                <div [class]="myClassName">Danger</div>
+            </div>
+
+            
+        </div>
+
+        <div class="col-4">
+            
+                    Event Binding
+                    <button class="btn btn-success" (click)="showAlert('Welcome Angular 18')">Show  Message</button>
+                
+           
+        </div>
+    </div>
+
+   
+
+</div>
+<div class="col-6">
+    <div class="row">
+        <select [(ngModel)]="stateName">
+            <option value="">Select</option>
+            <option value="Goa ">Goa</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value=" Punjab">Punjab</option>
+        </select>
+    </div>
+
+    <div class="col-6">
+        Signal
+        <h3>{{firstName()}}</h3>
+    </div>
+</div>
+
+</div>
