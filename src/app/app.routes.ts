@@ -7,6 +7,7 @@ import { StructuralDirectiveComponent } from './directives/structural-directive/
 import { ForComponent } from './Control flow/for/for.component';
 import { IfelseComponent } from './Control flow/ifelse/ifelse.component';
 import { SwitchComponent } from './Control flow/switch/switch.component';
+import { PipeComponent } from './pipe/pipe.component';
 
 export const routes: Routes = [
     {
@@ -46,5 +47,11 @@ export const routes: Routes = [
     {
         path:'app-switch',
         component: SwitchComponent
+    },
+    {
+        path:'app-pipe',
+        component: PipeComponent
     }
+
+
 ];

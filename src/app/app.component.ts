@@ -8,11 +8,12 @@ import { AttributeDirectiveComponent } from './directives/attribute-directive/at
 import { ForComponent } from './Control flow/for/for.component';
 import { IfelseComponent } from './Control flow/ifelse/ifelse.component';
 import { SwitchComponent } from './Control flow/switch/switch.component';
+import { PipeComponent } from './pipe/pipe.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,DatabindingComponent,StructuralDirectiveComponent,AttributeDirectiveComponent,RouterLink,ForComponent,IfelseComponent,SwitchComponent],
+  imports: [RouterOutlet,DatabindingComponent,StructuralDirectiveComponent,AttributeDirectiveComponent,RouterLink,ForComponent,IfelseComponent,SwitchComponent,PipeComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
