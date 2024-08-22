@@ -9,11 +9,14 @@ import { ForComponent } from './Control flow/for/for.component';
 import { IfelseComponent } from './Control flow/ifelse/ifelse.component';
 import { SwitchComponent } from './Control flow/switch/switch.component';
 import { PipeComponent } from './pipe/pipe.component';
+import { TemplateComponent } from './Form/template/template.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,DatabindingComponent,StructuralDirectiveComponent,AttributeDirectiveComponent,RouterLink,ForComponent,IfelseComponent,SwitchComponent,PipeComponent],
+  imports: [RouterOutlet,DatabindingComponent,StructuralDirectiveComponent,
+    AttributeDirectiveComponent,RouterLink,ForComponent,IfelseComponent,
+    SwitchComponent,PipeComponent, TemplateComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
